@@ -45,4 +45,13 @@ void startAlgoTesting()
 	atd.algorithm(new RadixSort<int>)->onData(td.getData(TestData<int>::SORTED), td.getLength(TestData<int>::SORTED))->printMeta()->sort()->newLine();
 	atd.onData(td.getData(TestData<int>::REVERSED), td.getLength(TestData<int>::REVERSED))->printMeta()->sort()->newLine();
 	atd.onData(td.getData(TestData<int>::NON_RECURSIVE), td.getLength(TestData<int>::NON_RECURSIVE))->printMeta()->sort();
+
+	// to add a new algorithm:
+	//   - make New_Sort.h
+	//   - algorithm should #include "SortBase.h" and inherit from SortBase
+	//		- in SortBase you'll find fields for the algorithm, e.g. data, data length...
+	//   - include it in Test_Algorithms.h
+	//   - test new algorithm here (uncomment line below and change it to the new class)
+	
+	// atd.algorithm(new NewSort<int>)->onData(td.getData(TestData<int>::SORTED), td.getLength(TestData<int>::SORTED))->printMeta()->sort();
 }

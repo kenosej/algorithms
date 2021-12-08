@@ -9,4 +9,6 @@
 #include "Radix_Sort.h"
 #include "Selection_Sort.h"
 
+// #include "New_Sort.h" // here goes the new algorithm
+
 void startAlgoTesting();
