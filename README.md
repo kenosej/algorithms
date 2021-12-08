@@ -18,6 +18,12 @@
 - testing done on 7 different data sets, from sorted sets, uniformly distributed sets, to almost random sets, ranging from **12kB** to **1MB**
 - for some algorithms done **step-by-step** representation of a algorithm
 - simple **extension** capabilites for the new algorithms
+
+------------
+
+##### Entry found in:
+- [Test_Algorithms.cpp](https://github.com/kenosej/algorithms/blob/main/Test_Algorithms.cpp "Test_Algorithms.cpp")
+
 ------------
 
 ##### Todos:
