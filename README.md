@@ -15,7 +15,7 @@
 ##### Provided:
 
 - recording of **time** needed for sorting of each algorithm.
-- testing done on 7 different data sets, from sorted sets, uniformly distributed sets, to almost random sets, ranging from **16kB** to **1MB**
+- testing done on 7 different data sets, from sorted sets, uniformly distributed sets, to almost random sets, ranging from **12kB** to **1MB**
 - for some algorithms done **step-by-step** representation of a algorithm
 - simple **extension** capabilites for the new algorithms
 ------------
